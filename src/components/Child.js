@@ -22,7 +22,7 @@ if(user.name && user.password){
     <div>
      
      {
-        isLoggedIn ? (<p>You are Logged in!</p>) : (<form>
+        isLoggedIn ? (<p>You are logged in!</p>) : (<form>
         username:<input type="text" onChange={(e)=>{
            setUser({...user,name:e.target.value}) 
         }} name="username"/><br/>
